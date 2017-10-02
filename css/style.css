@@ -1,36 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
 
 body {
-    background: url(../img/Profile-article.png) no-repeat;
-    height: 1920px;
-    width: 1920px;
-    opacity: 0.5;
-    background-color: white;
+    background: #ffffff url("../img/page-bg.png") no-repeat;
 }
 
 #wrapper {
     width: 1024px;
-    height: 1430px;
     margin: 230px auto;
-    background-color: yellow;
+    background-color: #fff;
 }
 
 .block-top {
-    background-color: grey;
     width: 1024px;
     height: 650px;
 }
 
 .block-top-left {
     float: left;
-    background-color: green;
     width: 70%;
     height: 650px;
 }
 
 .block-top-right {
     float: right;
-    background-color: red;
     width: 30%;
     height: 650px;
 }
@@ -39,7 +31,6 @@ body {
     margin-left: 35px;
     width: 230px;
     height: 149px;
-    background-color: purple;
 }
 
 .caption {
@@ -48,7 +39,7 @@ body {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 31.6px;
     text-transform: uppercase;
-    color: red;
+    color: #263555;
 }
 
 .caption2 {
@@ -56,25 +47,22 @@ body {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 31.6px;
     text-transform: uppercase;
-    color: green;
+    color: #263555;
 }
 
 .block-bottom {
-    background-color: fuchsia;
     width: 1024px;
     height: 650px;
 }
 
 .block-bottom-left {
     float: left;
-    background-color: saddlebrown;
     width: 70%;
     height: 650px;
 }
 
 .block-bottom-right {
     float: right;
-    background-color: orangered;
     width: 30%;
     height: 650px;
 }
@@ -92,7 +80,7 @@ body {
 }
 
 .prolog-text {
-    color: red;
+    color:#344260;
     font-size: 14px;
     margin-right: 21px;
     margin-bottom: 15px;
@@ -146,7 +134,7 @@ body {
 }
 
 .content-box-1 {
-    color: red;
+    color:#344260;
     font-size: 14px;
     margin: 70px 21px 15px 61px;
 }
@@ -155,18 +143,21 @@ body {
     display: block;
     font-size: 12px;
     margin-left: 61px;
+    color: rgb(78, 80, 80)
 }
 
 .list-box-1 {
     float: left;
     margin-left: 84px;
     margin-top: 67px;
+    color:#344260;
 }
 
 .list-box-2 {
     float: right;
     margin-right: 177px;
     margin-top: 65px;
+    color:#344260;
 }
 
 li {
@@ -175,32 +166,46 @@ li {
 }
 
 .caption3 {
-    margin: 64px 0 51px 35px;
+    margin: 64px 0 27px 35px;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 31.6px;
     text-transform: uppercase;
-    color: green;
+    color: #263555;
 }
 
 .content-box-3 {
-    color: white;
+    color:#344260;
     font-size: 15px;
-    margin-left: 63.5px;
-    margin-right: 90px;
+}
+
+.content-box-3::before {
+    content: '"';
+}
+
+.content-box-3::after {
+    content: '"';
 }
 
 .content-box-4 {
-    color: white;
+    color:#344260;
     font-size: 15px;
 }
 
 .person {
-    margin: 90px 30px 0 0;
+    margin: 62px 34px 0 0;
     text-align: center;
 }
 
 .person p {
     margin-top: 15px;
+}
+
+.citation {
+    width: 167px;
+    height: 170px;
+    border: 1px solid black;
+    margin-left: 35px;
+    padding: 20px 21px 0 23px;
 }
 
 #footer {
