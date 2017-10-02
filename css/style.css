@@ -52,7 +52,7 @@ body {
 }
 
 .caption2 {
-    margin: 120px 0 30px 35px;
+    margin: 120px 0 51px 35px;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 31.6px;
     text-transform: uppercase;
@@ -95,6 +95,7 @@ body {
     color: red;
     font-size: 14px;
     margin-right: 21px;
+    margin-bottom: 15px;
   }
 
 .prolog-box-1 {
@@ -107,7 +108,7 @@ body {
 .lap {
     float: left;
     display:block;
-    margin-top: 3px;
+    margin-top: 2px;
     width: 26px;
     height: 26px;
     background-color: #38afe5;
@@ -123,11 +124,11 @@ body {
   .lap-text {
     font-size: 15px;
     color:#344260;
-    margin-top: 49px;
+    margin-top: 0px;
     margin-left: 39px;
   }
 
-.box p {
+.lap p {
     margin-top: 5px;
 }
 
@@ -135,4 +136,23 @@ body {
     margin-top: 15px;
     margin-right: 40px;
     margin-left: 40px;
+}
+
+.line {
+    width: 900px;
+    height: 1px;
+    background-color: rgb(222, 219, 219);
+    margin-left: 60px;
+}
+
+.content-box-1 {
+    color: red;
+    font-size: 14px;
+    margin: 70px 21px 15px 61px;
+}
+
+.content-box-2 {
+    display: block;
+    font-size: 12px;
+    margin-left: 61px;
 }
