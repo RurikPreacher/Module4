@@ -57,7 +57,7 @@ body {
 }
 
 .caption {
-    margin: 120px;
+    margin: 120px 120px 52px 62px;
     margin-left: 62px;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 31.6px;
@@ -94,7 +94,9 @@ body {
 }
 
 .preview-photo {
-    margin: 53px 0px 0px 0px;
+    margin-left: 61px;
+    margin-bottom: 22px;
+    margin-right: 25px;
     float: left;
 }
 
@@ -104,14 +106,14 @@ body {
 }
 
 .prolog-text {
-    font-size: 15px;
-    color:red;
-    margin: 53px 0 0px 383px;
-    width: 253px;
-    height: 40px;
+    color: red;
+    font-size: 14px;
+    margin-right: 21px;
   }
 
 .prolog-box-1 {
     display: block;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 60px;
+    padding-right: 10px;
 }
