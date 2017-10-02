@@ -165,11 +165,46 @@ body {
 
 .list-box-2 {
     float: right;
-    margin-right: 187px;
+    margin-right: 177px;
     margin-top: 65px;
 }
 
 li {
     list-style-image: url(../img/arrow.png);
     margin-bottom: 24px;
+}
+
+.caption3 {
+    margin: 64px 0 51px 35px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 31.6px;
+    text-transform: uppercase;
+    color: green;
+}
+
+.content-box-3 {
+    color: white;
+    font-size: 15px;
+    margin-left: 63.5px;
+    margin-right: 90px;
+}
+
+.content-box-4 {
+    color: white;
+    font-size: 15px;
+}
+
+.person {
+    margin: 90px 30px 0 0;
+    text-align: center;
+}
+
+.person p {
+    margin-top: 15px;
+}
+
+#footer {
+    background-color: rgb(48, 69, 91);
+    height: 132px;
+    width: 1024px;
 }

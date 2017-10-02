@@ -66,10 +66,10 @@ color: #000;
 margin: 0 0 -2px;
 padding: 0;
 }
-li {
+/* li {
 display: block;
 list-style: none;
-}
+} */
 optgroup option {
 padding-left: 22px;
 }
