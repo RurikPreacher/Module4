@@ -156,3 +156,20 @@ body {
     font-size: 12px;
     margin-left: 61px;
 }
+
+.list-box-1 {
+    float: left;
+    margin-left: 84px;
+    margin-top: 67px;
+}
+
+.list-box-2 {
+    float: right;
+    margin-right: 187px;
+    margin-top: 65px;
+}
+
+li {
+    list-style-image: url(../img/arrow.png);
+    margin-bottom: 24px;
+}
