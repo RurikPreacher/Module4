@@ -35,24 +35,10 @@ body {
     height: 650px;
 }
 
-.box-1 {
-    margin: 25px 0 0 35px;
+.box {
+    margin-left: 35px;
     width: 230px;
-    height: 150px;
-    background-color: purple;
-}
-
-.box-2 {
-    margin: 0 0 0 35px;
-    width: 230px;
-    height: 150px;
-    background-color: purple;
-}
-
-.box-3 {
-    margin: 0 0 0 35px;
-    width: 230px;
-    height: 150px;
+    height: 149px;
     background-color: purple;
 }
 
@@ -66,7 +52,7 @@ body {
 }
 
 .caption2 {
-    margin: 120px 0 5px 35px;
+    margin: 120px 0 30px 35px;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 31.6px;
     text-transform: uppercase;
@@ -115,5 +101,31 @@ body {
     display: block;
     font-size: 12px;
     margin-left: 60px;
-    padding-right: 10px;
+    padding-right: 12px;
+}
+
+.lap {
+    float: left;
+    display:block;
+    margin-top: 3px;
+    width: 26px;
+    height: 26px;
+    background-color: #38afe5;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -khtml-border-radius:50px;
+    -webkit-border-radius:50px;
+    border: 2px solid #77a7bd;
+    font-size: 16px; color:white;
+    text-align: center;
+  }
+  
+  .lap-text {
+    font-size: 15px;
+    color:#344260;
+    margin-top: 49px;
+  }
+
+.box p {
+    margin: 10px 30px 0 40px;
 }
