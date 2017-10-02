@@ -94,7 +94,7 @@ body {
 }
 
 .preview-photo {
-    margin: 0px 0px 0px 60px;
+    margin: 53px 0px 0px 0px;
     float: left;
 }
 
@@ -106,5 +106,12 @@ body {
 .prolog-text {
     font-size: 15px;
     color:red;
-    margin: 0 0 0 446px;
+    margin: 53px 0 0px 383px;
+    width: 253px;
+    height: 40px;
   }
+
+.prolog-box-1 {
+    display: block;
+    margin-top: 10px;
+}
